@@ -1,0 +1,10 @@
+# gerar chave para usuario terraform-aws 
+ssh-keygen -f terraform-aws -t rsa
+
+terraform init                    - inicializa a utilizacao do terraform mesma semantica que o git    
+terraform plan                    - simula uma execucao verificando se nao occorre algo de errado
+terraform apply                   - aplica as configuracoes estabelecidas no .tf
+terraform show                    - exibe o status do ambiente 
+
+
+aws ec2 describe-security-groups  -  verificar security groups via linha de comando.
